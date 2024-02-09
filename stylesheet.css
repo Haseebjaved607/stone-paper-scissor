@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+  background-color: #081b31;
+  color: white;
+  height: 5rem;
+  line-height: 5rem;
+}
+.choice {
+  height: 165px;
+  width: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.choice:hover {
+  cursor: pointer;
+  background-color: #081b31;
+}
+img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.choices {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin-top: 3%;
+}
+
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 2rem;
+  /* margin: 2%; */
+  margin-top: 2%;
+  /* margin-bottom: 1%; */
+}
+
+#user-score,
+#comp-score {
+  font-size: 4rem;
+
+}
+.msg-container{
+    margin-top: 5rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap:20px;
+}
+
+/* button{
+    padding: 14px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    width: 90px;
+} */
+
+#msg {
+  background-color: #081b31;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline;
+  
+}
+
+#Resetbtn{
+    background-color: #081b31;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 110px;
+  /* display: inline; */
+}
+
+/* <!------------> */
+
+
+/* @media screen and (max-width:320px) {
+  h1{
+      /* background-color: red; */
+      /* font-size: 19px;  
+      width: 140%;
+  }
+  .choices{
+    gap:0;
+   display: flex;
+  width: 140%;
+  border: 1px solid red;
+  gap:11%
+  
+  
+}
+
+.choice{
+  justify-content: center;
+  align-items: center;
+  border:1px solid green;
+  justify-content: space-between;
+  border-radius: 100%;
+  }
+
+.choice,image{
+border: 3px solid blue;
+width: 40px;
+
+  }
+  
+
+} */ */
